@@ -1,0 +1,47 @@
+{
+  "name": "aem-ui-graph",
+  "version": "1.0.0",
+  "keywords": [
+    "aem-ui-graph"
+  ],
+  "author": "Matrix <maoshiba2006@126.com>",
+  "homepage": "https://github.com/aaa",
+  "license": "MIT",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cz160/cz-libs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "father-build"
+  },
+  "bugs": {
+    "url": "https://github.com/cz160/cz-libs/issues"
+  },
+  "dependencies": {
+    "@antv/g6": "latest",
+    "@antv/g6-react-node": "latest",
+    "@antv/graphin": "latest",
+    "@antv/graphin-components": "latest",
+    "@antv/graphin-icons": "latest",
+    "@babel/runtime": "^7.14.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/react": "^16.14.2",
+    "@types/react-dom": "^16.9.9",
+    "father-build": "^1.19.1"
+  }
+}

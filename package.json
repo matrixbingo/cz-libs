@@ -12,6 +12,7 @@
     "build:h": "lerna run build --scope=@cz160/hooks",
     "build:u": "lerna run build --scope=@cz160/utils",
     "build:c": "lerna run build --scope=@cz160/components",
+    "build:f": "lerna run build --scope=aem-ui-graph",
     "pub": "lerna publish"
   },
   "main": "dist/index.js",
